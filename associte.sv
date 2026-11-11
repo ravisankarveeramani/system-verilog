@@ -14,7 +14,7 @@ a[20]=32;
 
 a[30]=11;
 
-a[50]=40;
+a["last"]=40;
 
 if(a.first(i))
 
@@ -22,7 +22,7 @@ $display("the first index%0d",i);
 
 if(a.last(i))
 
-$display("the last index%0d",i);
+$display("the last index%s",i);
 
 i=10;
 
