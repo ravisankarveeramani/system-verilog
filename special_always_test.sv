@@ -79,5 +79,9 @@ enable=0;#10
 $finish;
 
 end
+initial begin
+	$dumpfile("wveform.vcd");
+	$dumpvar(0,special_always_test);
+end
 
 endmodule
