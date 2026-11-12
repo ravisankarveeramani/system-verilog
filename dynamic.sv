@@ -21,5 +21,8 @@ $display("a[%d] =%0d",i,a[i]);
 $display("size of array=%0d", $size(a));
 
 end
+initial begin
+	$dumpfile("waves2.vcd")l;
+	$dumpvar(1,dynamic);
 
 endmodule
