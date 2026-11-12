@@ -19,5 +19,7 @@ count_task();
 count_task();
 
 end
-
+initial begin
+	$dumpfile("wvaes.vd");
+	$dumpvar(1,counttask);
 endmodule
