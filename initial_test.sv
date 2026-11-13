@@ -21,7 +21,7 @@ initial begin
 $display("C4:%0t",$time);#3
 
 $display("C7:%0t",$time);
-
+#4;
 end
 
 endmodule
