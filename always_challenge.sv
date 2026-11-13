@@ -36,7 +36,7 @@ end
 
 always@(negedge clk)begin
 
-$display("neg time:%0t, data=%d", $time, data);
+$display("neg edge time:%0t, data=%d", $time, data);
 
 end
 
